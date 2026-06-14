@@ -1,7 +1,23 @@
 {
-  "className": "TelaLogin",
-  "frameTitle": "TelaLogin",
+  "className": "MainWindow",
+  "frameTitle": "MainWindow",
   "frameWidth": 1024,
   "frameHeight": 768,
-  "components": []
+  "components": [
+    {
+      "id": "8a5f1290-24ef-4d50-b9ae-6c12816eefbc",
+      "type": "Panel",
+      "variableName": "panel1",
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 768,
+      "backgroundColor": "#ffffff",
+      "textColor": "#000000",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "eventMethodName": "",
+      "text": "Teste"
+    }
+  ]
 }
