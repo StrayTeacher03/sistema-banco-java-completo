@@ -8,15 +8,21 @@ public class TelaLogin extends javax.swing.JFrame {
 
     // GEN-BEGIN:initComponents
     private void initComponents() {
+        btnEntrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("TelaLogin");
+        setTitle("My Frame");
         getContentPane().setLayout(null);
 
-        setSize(640, 480);
+        btnEntrar.setText("Button");
+
+        btnEntrar.setBounds(200, 248, 100, 30);
+        getContentPane().add(btnEntrar);
+        setSize(600, 450);
         setLocationRelativeTo(null);
     } // GEN-END:initComponents
 
     // GEN-BEGIN:variables
+    private javax.swing.JButton btnEntrar;
     // GEN-END:variables
 }
