@@ -18,8 +18,8 @@
       "properties": {
         "text": "Button",
         "bounds": {
-          "x": 200,
-          "y": 248,
+          "x": 232,
+          "y": 264,
           "width": 100,
           "height": 30
         }
@@ -27,6 +27,22 @@
       "events": {
         "actionPerformed": "btnEntrarActionPerfomed"
       },
+      "children": []
+    },
+    {
+      "id": "comp_eir13m9do",
+      "type": "JButton",
+      "variableName": "jButton1",
+      "properties": {
+        "text": "Button",
+        "bounds": {
+          "x": 152,
+          "y": 96,
+          "width": 100,
+          "height": 30
+        }
+      },
+      "events": {},
       "children": []
     }
   ]
