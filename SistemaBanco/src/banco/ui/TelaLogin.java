@@ -15,6 +15,11 @@ public class TelaLogin extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         btnEntrar.setText("Button");
+        btnEntrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEntrarActionPerfomed(evt);
+            }
+        });
 
         btnEntrar.setBounds(200, 248, 100, 30);
         getContentPane().add(btnEntrar);
@@ -25,4 +30,8 @@ public class TelaLogin extends javax.swing.JFrame {
     // GEN-BEGIN:variables
     private javax.swing.JButton btnEntrar;
     // GEN-END:variables
+
+    private void btnEntrarActionPerfomed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+    }
 }
