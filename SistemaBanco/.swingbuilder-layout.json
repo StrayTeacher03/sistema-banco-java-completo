@@ -18,6 +18,26 @@
       "fontSize": 12,
       "eventMethodName": "",
       "text": "Teste"
+    },
+    {
+      "id": "6d5f1d9b-a54e-45aa-b2f4-b8a1852b01e4",
+      "type": "Button",
+      "variableName": "button2",
+      "x": 371,
+      "y": 382,
+      "width": 120,
+      "height": 36,
+      "backgroundColor": "#e1ff4d",
+      "textColor": "#000000",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "eventMethodName": "",
+      "text": "Ok",
+      "parentId": "8a5f1290-24ef-4d50-b9ae-6c12816eefbc",
+      "parentOffset": {
+        "x": 371,
+        "y": 382
+      }
     }
   ]
 }
