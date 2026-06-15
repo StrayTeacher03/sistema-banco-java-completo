@@ -1,0 +1,14 @@
+{
+  "id": "root",
+  "type": "JFrame",
+  "variableName": "this",
+  "properties": {
+    "title": "TelaMenuPrincipal",
+    "size": {
+      "width": 640,
+      "height": 480
+    },
+    "layout": "AbsoluteLayout"
+  },
+  "children": []
+}
