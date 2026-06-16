@@ -10,5 +10,117 @@
     },
     "layout": "AbsoluteLayout"
   },
-  "children": []
+  "children": [
+    {
+      "id": "comp_b8rsl16r9",
+      "type": "JLabel",
+      "variableName": "lTituloGeUsuarios",
+      "properties": {
+        "text": "Gerenciador de Usuários",
+        "bounds": {
+          "x": 224,
+          "y": 0,
+          "width": 192,
+          "height": 92
+        },
+        "horizontalAlignment": "CENTER",
+        "verticalAlignment": "CENTER",
+        "font": {
+          "name": "Dialog",
+          "style": 0,
+          "size": 16
+        }
+      },
+      "events": {},
+      "children": []
+    },
+    {
+      "id": "comp_bzj51e3du",
+      "type": "JScrollPane",
+      "variableName": "pScroUsuarios",
+      "properties": {
+        "text": "",
+        "bounds": {
+          "x": 0,
+          "y": 92,
+          "width": 640,
+          "height": 240
+        }
+      },
+      "events": {},
+      "children": [
+        {
+          "id": "comp_5497zcox8",
+          "type": "JTable",
+          "variableName": "jTable1",
+          "properties": {
+            "text": "",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 640,
+              "height": 240
+            },
+            "columnNames": [
+              "ID",
+              "Login",
+              "Nome",
+              "Perfil"
+            ],
+            "autoResizeMode": "AUTO_RESIZE_ALL_COLUMNS"
+          },
+          "events": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "comp_aih7xg5yo",
+      "type": "JButton",
+      "variableName": "btnCriar",
+      "properties": {
+        "text": "Novo Usuário",
+        "bounds": {
+          "x": 0,
+          "y": 408,
+          "width": 100,
+          "height": 30
+        }
+      },
+      "events": {},
+      "children": []
+    },
+    {
+      "id": "comp_dnnmwwvz3",
+      "type": "JButton",
+      "variableName": "btnEditar",
+      "properties": {
+        "text": "Editar",
+        "bounds": {
+          "x": 224,
+          "y": 408,
+          "width": 100,
+          "height": 30
+        }
+      },
+      "events": {},
+      "children": []
+    },
+    {
+      "id": "comp_7cw2f6nmt",
+      "type": "JButton",
+      "variableName": "btnExcluir",
+      "properties": {
+        "text": "Excluir",
+        "bounds": {
+          "x": 416,
+          "y": 408,
+          "width": 100,
+          "height": 30
+        }
+      },
+      "events": {},
+      "children": []
+    }
+  ]
 }
