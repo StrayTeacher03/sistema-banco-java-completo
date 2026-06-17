@@ -1,5 +1,9 @@
 package banco.interfaces;
 
-public class Operavel {
-    
+public interface Operavel {
+    void depositar(double valor);
+
+    boolean sacar(double valor);
+
+    void exibirSaldo();
 }
