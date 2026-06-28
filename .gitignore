@@ -28,6 +28,7 @@ nbdist/
 !src/**/*.xml
 !src/**/*.properties
 !src/**/META-INF/MANIFEST.MF
+.swing-preview/
 
 .vscode/
 !.vscode/settings.json

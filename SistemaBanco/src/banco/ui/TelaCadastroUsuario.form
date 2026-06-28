@@ -1,0 +1,32 @@
+{
+  "id": "root",
+  "type": "JFrame",
+  "variableName": "this",
+  "properties": {
+    "title": "TelaCadastroUsuario",
+    "size": {
+      "width": 640,
+      "height": 480
+    },
+    "layout": "AbsoluteLayout"
+  },
+  "children": [
+    {
+      "id": "comp_e00yasmll",
+      "type": "JPanel",
+      "variableName": "jPanel1",
+      "properties": {
+        "text": "",
+        "bounds": {
+          "x": 152,
+          "y": 120,
+          "width": 280,
+          "height": 224
+        },
+        "layout": "AbsoluteLayout"
+      },
+      "events": {},
+      "children": []
+    }
+  ]
+}
