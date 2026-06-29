@@ -60,5 +60,3 @@ public class ContaCorrente extends ContaBancaria {
     }
 
 }
-/* Implementar gerarExtrato() → exibe via JOptionPane: dados do titular, número da conta,
-saldo, limite do cheque especial e histórico completo de transações. */
