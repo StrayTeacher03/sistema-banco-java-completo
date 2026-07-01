@@ -6,7 +6,6 @@ package banco.ui;
 
 import banco.model.ContaBancaria;
 import banco.model.ContaCorrente;
-import banco.model.ContaPoupanca;
 import banco.service.BancoService;
 
 /**
@@ -36,7 +35,7 @@ public class TelaOperacoes extends javax.swing.JFrame {
         fSaque.setColumns(15);
         fNumConta.setColumns(15);
         fValorTrans.setColumns(15);
-        setSize(700, 500);
+        setSize(900, 700);
         setLocationRelativeTo(null);
     }
     
@@ -191,7 +190,7 @@ public class TelaOperacoes extends javax.swing.JFrame {
         lSaldoAtual = new javax.swing.JLabel();
         lMsgSaldoAtual = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(600, 400));
         setSize(new java.awt.Dimension(600, 400));
 
@@ -230,7 +229,7 @@ public class TelaOperacoes extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(lDep)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
                 .addComponent(fDep, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(12, 12, 12)
                 .addComponent(lErroDep)
@@ -284,7 +283,7 @@ public class TelaOperacoes extends javax.swing.JFrame {
                 .addComponent(fSaque, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(lErroSaque)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(btnSaque))
         );
 
@@ -375,33 +374,62 @@ public class TelaOperacoes extends javax.swing.JFrame {
         jTabbedPane1.addTab("Transferência", jPanel5);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(400, 300));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lErroBusca.setForeground(new java.awt.Color(255, 0, 0));
         lErroBusca.setText("Erro");
-        jPanel1.add(lErroBusca, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 9, -1, -1));
 
-        fBusca.setColumns(4);
+        fBusca.setColumns(20);
         fBusca.setText("Número");
         fBusca.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        jPanel1.add(fBusca, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 6, 65, -1));
 
         btnBuscar.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
         btnBuscar.setText("Buscar");
         btnBuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel1.add(btnBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(502, 6, -1, -1));
 
         lTitular.setText("Titular:");
-        jPanel1.add(lTitular, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 65, -1, -1));
-        jPanel1.add(lMsgTitular, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 65, -1, -1));
 
         lTipoConta.setText("Tipo de Conta:");
-        jPanel1.add(lTipoConta, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 101, -1, -1));
-        jPanel1.add(lMsgTipoConta, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 101, -1, -1));
 
         lSaldoAtual.setText("Saldo Atual:");
-        jPanel1.add(lSaldoAtual, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 137, -1, -1));
-        jPanel1.add(lMsgSaldoAtual, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 137, -1, -1));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(384, 384, 384)
+                .addComponent(lErroBusca)
+                .addGap(18, 18, 18)
+                .addComponent(fBusca, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(btnBuscar))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(lTitular))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(lTipoConta))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(lSaldoAtual))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(lErroBusca))
+                    .addComponent(fBusca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBuscar))
+                .addGap(35, 35, 35)
+                .addComponent(lTitular)
+                .addGap(18, 18, 18)
+                .addComponent(lTipoConta)
+                .addGap(18, 18, 18)
+                .addComponent(lSaldoAtual))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -410,7 +438,7 @@ public class TelaOperacoes extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 588, Short.MAX_VALUE)
                     .addComponent(jTabbedPane1))
                 .addContainerGap())
         );
@@ -420,7 +448,7 @@ public class TelaOperacoes extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jTabbedPane1)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 188, Short.MAX_VALUE)
                 .addContainerGap())
         );
 

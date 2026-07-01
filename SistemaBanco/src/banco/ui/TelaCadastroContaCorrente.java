@@ -33,7 +33,7 @@ public class TelaCadastroContaCorrente extends javax.swing.JFrame {
         fLimite.setColumns(15);
         fNumConta.setColumns(15);
 
-        setSize(500, 450);
+        pack();
         setLocationRelativeTo(null);
     }
 

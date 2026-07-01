@@ -44,7 +44,7 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         fSenha.setColumns(20);
         fConSenha.setColumns(20);
 
-        setSize(500, 450);
+        pack();
         setLocationRelativeTo(null);
     }
 

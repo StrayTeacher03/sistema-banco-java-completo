@@ -33,7 +33,7 @@ public class TelaCadastroContaPoupanca extends javax.swing.JFrame {
         fRend.setColumns(15);
         fNumConta.setColumns(15);
 
-        setSize(500, 450);
+        pack();
         setLocationRelativeTo(null);
     }
 

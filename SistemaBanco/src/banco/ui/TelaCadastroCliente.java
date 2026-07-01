@@ -30,7 +30,7 @@ public class TelaCadastroCliente extends javax.swing.JFrame {
         fCpf.setColumns(15);
         fTelefone.setColumns(15);
         
-        setSize(500, 400);
+        pack();
         setLocationRelativeTo(null);
     }
 

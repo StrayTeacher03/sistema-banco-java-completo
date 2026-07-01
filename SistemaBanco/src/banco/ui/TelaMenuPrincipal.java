@@ -23,6 +23,8 @@ public class TelaMenuPrincipal extends javax.swing.JFrame {
     public TelaMenuPrincipal(Usuario usuario) {
         this.usuarioLogado = usuario;
         initComponents();
+        setSize(900, 700);
+        setLocationRelativeTo(null);
         lSaud.setText("Bem-Vindo(a), " + (usuario != null ? usuario.getNome() : ""));
         
         if (usuario != null && !"ADMIN".equals(usuario.getPerfil())) {
@@ -36,10 +38,6 @@ public class TelaMenuPrincipal extends javax.swing.JFrame {
         menuCadPoupanca.addActionListener(this::abrirTelaCadastroContaPoupanca);
         menuRel.addActionListener(this::abrirTelaRelatorio);
         
-        // Transformar JMenu em JMenuItem para clique direto (Operações)
-        // O NetBeans gerou menuOp como JMenu. Como ele precisa ser clicável como um item, 
-        // vamos adicionar um listener no mouse ou podemos adicionar um item dentro dele.
-        // A forma mais fácil via código customizado é adicionar um MouseListener:
         menuOp.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 abrirTelaOperacoes(null);
@@ -47,7 +45,6 @@ public class TelaMenuPrincipal extends javax.swing.JFrame {
         });
     }
     
-    // Construtor padrão necessário para o GUI Builder (mantido por compatibilidade)
     public TelaMenuPrincipal() {
         this(null);
     }

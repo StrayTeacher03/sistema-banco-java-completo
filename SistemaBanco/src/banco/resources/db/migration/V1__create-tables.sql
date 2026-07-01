@@ -1,9 +1,9 @@
-CREATE TYPE IF NOT EXISTS perfil_usuario AS ENUM (
+CREATE TYPE perfil_usuario AS ENUM (
     'ADMIN',
     'OPERADOR'
 );
 
-CREATE TYPE IF NOT EXISTS tipo_trans AS ENUM (
+CREATE TYPE tipo_trans AS ENUM (
     'CORRENTE',
     'POUPANCA'
 );
