@@ -1,239 +1,200 @@
-{
-  "id": "root",
-  "type": "JFrame",
-  "variableName": "this",
-  "properties": {
-    "title": "TelaMenuPrincipal",
-    "size": {
-      "width": 640,
-      "height": 480
-    },
-    "layout": "AbsoluteLayout"
-  },
-  "children": [
-    {
-      "id": "comp_nmm8n4i35",
-      "type": "JLabel",
-      "variableName": "lMsgSaud",
-      "properties": {
-        "text": "Bem-vindo, [Nome do Usuário]",
-        "bounds": {
-          "x": 56,
-          "y": 8,
-          "width": 184,
-          "height": 30
-        }
-      },
-      "events": {},
-      "children": []
-    },
-    {
-      "id": "comp_2trnzzc0m",
-      "type": "JButton",
-      "variableName": "btnSair",
-      "properties": {
-        "text": "Sair",
-        "bounds": {
-          "x": 536,
-          "y": 8,
-          "width": 100,
-          "height": 30
-        },
-        "toolTipText": ""
-      },
-      "events": {},
-      "children": []
-    },
-    {
-      "id": "comp_aawo1k5my",
-      "type": "JMenuBar",
-      "variableName": "menuP",
-      "properties": {
-        "text": "MenuBar",
-        "bounds": {
-          "x": 0,
-          "y": 88,
-          "width": 296,
-          "height": 56
-        }
-      },
-      "events": {},
-      "children": [
-        {
-          "id": "comp_s9kme9h1n",
-          "type": "JMenu",
-          "variableName": "gerencia",
-          "properties": {
-            "text": "Gerenciamento",
-            "bounds": {
-              "x": 0,
-              "y": 0,
-              "width": 80,
-              "height": 22
-            }
-          },
-          "children": [
-            {
-              "id": "comp_xd63690h9",
-              "type": "JMenuItem",
-              "variableName": "gUsuarios",
-              "properties": {
-                "text": "Gerenciar Usuários",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            },
-            {
-              "id": "comp_zkxkenm3x",
-              "type": "JMenuItem",
-              "variableName": "eConta",
-              "properties": {
-                "text": "Extrato da Conta",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            },
-            {
-              "id": "comp_aw0ije5ni",
-              "type": "JMenuItem",
-              "variableName": "relGe",
-              "properties": {
-                "text": "Relatório Geral do Banco",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "comp_onfwh2hcj",
-          "type": "JMenu",
-          "variableName": "cadastro",
-          "properties": {
-            "text": "Cadastro",
-            "bounds": {
-              "x": 0,
-              "y": 0,
-              "width": 80,
-              "height": 22
-            }
-          },
-          "children": [
-            {
-              "id": "comp_4b8qycmga",
-              "type": "JMenuItem",
-              "variableName": "cadCliente",
-              "properties": {
-                "text": "Cadastrar Cliente",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            },
-            {
-              "id": "comp_o84fof39d",
-              "type": "JMenuItem",
-              "variableName": "cadCC",
-              "properties": {
-                "text": "Cadastrar Conta Corrente",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            },
-            {
-              "id": "comp_di9jg426l",
-              "type": "JMenuItem",
-              "variableName": "cadCP",
-              "properties": {
-                "text": "Cadastrar Conta Poupança",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "comp_ef032m9dk",
-          "type": "JMenu",
-          "variableName": "operacoes",
-          "properties": {
-            "text": "Operações",
-            "bounds": {
-              "x": 0,
-              "y": 0,
-              "width": 80,
-              "height": 22
-            }
-          },
-          "children": [
-            {
-              "id": "comp_ia085y997",
-              "type": "JMenuItem",
-              "variableName": "opDep",
-              "properties": {
-                "text": "Depósito",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            },
-            {
-              "id": "comp_yb1h4l0zc",
-              "type": "JMenuItem",
-              "variableName": "opSaque",
-              "properties": {
-                "text": "Saque",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            },
-            {
-              "id": "comp_ooyckvudn",
-              "type": "JMenuItem",
-              "variableName": "opTrans",
-              "properties": {
-                "text": "Transferência",
-                "bounds": {
-                  "x": 0,
-                  "y": 0,
-                  "width": 80,
-                  "height": 22
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="JMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gerenciar"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor em Forma de M&#xe3;o"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuGer">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Gerenciar Usu&#xe1;rios"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuExt">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Extrato da Conta"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuExtActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuRel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Relat&#xf3;rio Geral do Banco"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cadastro"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor em Forma de M&#xe3;o"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuCadCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Cliente"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuCadCorrente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Conta Corrente"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuCadPoupanca">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Conta Poupan&#xe7;a"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuOp">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Opera&#xe7;&#xf5;es"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor em Forma de M&#xe3;o"/>
+            </Property>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="108" max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="212" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="106" max="32767" attributes="0"/>
+                  <Component id="lSaud" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="lSaud" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="61" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lSaud">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bem-Vindo(a), [nome do usu&#xe1;rio]"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="58" max="32767" attributes="0"/>
+                  <Component id="btnSair" min="-2" pref="63" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
+                  <Component id="btnSair" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnSair">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sair"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor em Forma de M&#xe3;o"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSairActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

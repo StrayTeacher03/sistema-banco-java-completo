@@ -5,5 +5,5 @@ public interface Operavel {
 
     boolean sacar(double valor);
 
-    void exibirSaldo();
+    String exibirSaldo();
 }

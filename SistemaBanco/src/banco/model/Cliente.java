@@ -4,6 +4,9 @@ public class Cliente {
     private String nome, cpf, telefone;
     private long id;
 
+    public Cliente() {
+    }
+
     public Cliente(long id, String nome, String cpf, String telefone) {
         this.id = id;
         this.nome = nome;
@@ -11,45 +14,45 @@ public class Cliente {
         this.telefone = telefone;
     }
 
-    long getId() {
+    public long getId() {
 
         return id;
     }
 
-    void setId(long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    String getName() {
+    public String getNome() {
 
         return nome;
     }
 
-    void setName(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
     
-    String getCpf() {
+    public String getCpf() {
 
         return cpf;
     }
 
-    void setCpf(String cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
     
-    String getTelefone() {
+    public String getTelefone() {
 
         return telefone;
     }
     
-    void setTelefone(String telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
     @Override
     public String toString() {
-        return "Cliente[nome: "+nome+", cpf: "+cpf+", telefone: "+telefone+"]";
+        return "Cliente[id: " + id+ ", nome: "+nome+", cpf: "+cpf+", telefone: "+telefone+"]";
     }
 
 }
